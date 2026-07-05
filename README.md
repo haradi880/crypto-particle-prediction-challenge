@@ -1,5 +1,6 @@
 # Crypto-Particle Prediction Challenge
-![Project Screenshot](/trial_0002 - frame at 0m1s.jpg)
+
+![Project Screenshot](img1.jpg)
 This repository creates a leakage-resistant forecasting competition with 150
 particles distributed across 50 sections. Competitors observe past video and
 predict every particle's position one second into an unseen future.
