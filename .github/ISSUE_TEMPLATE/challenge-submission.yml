@@ -1,0 +1,74 @@
+name: Challenge Submission
+description: Submit an entry to the +1 Second Crypto-Particle Prediction Challenge
+title: "[SUBMISSION] Team or participant name"
+labels:
+  - submission
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Submit one entry per team. Your code, predictions, and outputs must be reproducible.
+
+  - type: input
+    id: participant
+    attributes:
+      label: Participant or team name
+      placeholder: Your public name
+    validations:
+      required: true
+
+  - type: input
+    id: code
+    attributes:
+      label: Public source-code repository
+      description: Link to the exact version of your training and inference code.
+      placeholder: https://github.com/username/project
+    validations:
+      required: true
+
+  - type: input
+    id: package
+    attributes:
+      label: Submission package download
+      description: Link to a ZIP containing submission.csv, model weights, logs, and documentation.
+      placeholder: https://drive.google.com/... or https://www.dropbox.com/...
+    validations:
+      required: true
+
+  - type: textarea
+    id: method
+    attributes:
+      label: Method summary
+      description: Explain the model, inputs, history length, and training approach.
+    validations:
+      required: true
+
+  - type: textarea
+    id: data
+    attributes:
+      label: Training data
+      description: State which official and additional generated datasets were used.
+    validations:
+      required: true
+
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Hardware and runtime
+      description: Include CPU, GPU, RAM, training time, and inference time.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Required confirmations
+      options:
+        - label: My package contains exactly one filled submission.csv using the official schema.
+          required: true
+        - label: My repository contains complete training and inference code.
+          required: true
+        - label: I did not access future test footage, private ground truth, process memory, or hidden random-force values.
+          required: true
+        - label: I allow the organizer to reproduce and publicly report my official score.
+          required: true

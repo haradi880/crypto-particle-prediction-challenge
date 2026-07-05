@@ -60,6 +60,14 @@ Every trial requires exactly 150 predictions. Coordinates use the full
 - Hardware, runtime, and random-seed documentation.
 - A README containing one-command reproduction steps.
 
+## Where to submit
+
+Package the required deliverables as a downloadable ZIP, then use the
+[GitHub Challenge Submission form](https://github.com/haradi880/crypto-particle-prediction-challenge/issues/new?template=challenge-submission.yml).
+
+The GitHub issue timestamp is the official submission time. See
+`SUBMISSION_GUIDE.md` for the complete process.
+
 ## Official evaluation
 
 Primary metric: mean Euclidean position error in pixels, lower is better.

@@ -76,6 +76,18 @@ trial_0001,0,red,72.125,101.750
 
 Each test trial requires exactly 150 predictions.
 
+## Submit your entry
+
+1. Fill the official `submission_template.csv`.
+2. Package your prediction CSV, source code, model weights, logs, dependencies,
+   and reproduction instructions.
+3. Upload the package to a publicly accessible file host.
+4. [Open the Challenge Submission form](https://github.com/haradi880/crypto-particle-prediction-challenge/issues/new?template=challenge-submission.yml).
+5. Provide your code-repository and package-download links.
+
+Read [SUBMISSION_GUIDE.md](SUBMISSION_GUIDE.md) for the required package
+structure and organizer validation process.
+
 Every entry must include:
 
 - Complete training and inference code
@@ -101,6 +113,8 @@ Results also report:
 
 Private ground truth is held by the organizer. Self-reported test scores are
 not official.
+
+Accepted results are published in [LEADERBOARD.md](LEADERBOARD.md).
 
 ## Generate additional training data
 

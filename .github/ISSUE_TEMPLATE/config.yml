@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Read the competition rules
+    url: https://github.com/haradi880/crypto-particle-prediction-challenge/blob/main/COMPETITION_RULES.md
+    about: Review the rules before submitting.
