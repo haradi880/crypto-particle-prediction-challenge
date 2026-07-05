@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+simulation_logs/
+competition_release/
+competition_smoke/
+crypto-particle-prediction-dataset-*.zip
+.agents/
+.codex/
+.venv/
+venv/
