@@ -1,5 +1,7 @@
 # Crypto-Particle Prediction Challenge
 
+![Project Screenshot](img1.jpg)
+
 Can you predict 150 cryptographically driven particles **one second into an
 unseen future**?
 
